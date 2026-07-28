@@ -8,23 +8,55 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MatheusRibeiroHermsd\\.nuget\\packages\\": {},
+<<<<<<< HEAD
+    "C:\\Users\\VINICIUSSOUZAJALOVIC.AzureAD\\.nuget\\packages\\": {},
+=======
+<<<<<<< HEAD
+    "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\HENRIQUEBURITIALVESC.AzureAD\\.nuget\\packages\\": {},
+>>>>>>> 93596348a756f4bf755de6de5a44c4d378ce61fb
+>>>>>>> e960c048635bbf7d1c3ae5f670281315a7671164
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MatheusRibeiroHermsd\\source\\repos\\Projeto_NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\VINICIUSSOUZAJALOVIC.AzureAD\\Desktop\\projeto Nav 2\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
       "projectName": "Projeto_NAV",
-      "projectPath": "C:\\Users\\MatheusRibeiroHermsd\\source\\repos\\Projeto_NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
-      "packagesPath": "C:\\Users\\MatheusRibeiroHermsd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MatheusRibeiroHermsd\\source\\repos\\Projeto_NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+      "projectPath": "C:\\Users\\VINICIUSSOUZAJALOVIC.AzureAD\\Desktop\\projeto Nav 2\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+      "packagesPath": "C:\\Users\\VINICIUSSOUZAJALOVIC.AzureAD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\VINICIUSSOUZAJALOVIC.AzureAD\\Desktop\\projeto Nav 2\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\Desktop\\Nav\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+      "projectName": "Projeto_NAV",
+      "projectPath": "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\Desktop\\Nav\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+      "packagesPath": "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\Desktop\\Nav\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\HENRIQUEBURITIALVESC.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+      "projectName": "Projeto_NAV",
+      "projectPath": "C:\\Users\\HENRIQUEBURITIALVESC.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+      "packagesPath": "C:\\Users\\HENRIQUEBURITIALVESC.AzureAD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HENRIQUEBURITIALVESC.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+>>>>>>> 93596348a756f4bf755de6de5a44c4d378ce61fb
+>>>>>>> e960c048635bbf7d1c3ae5f670281315a7671164
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MatheusRibeiroHermsd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+<<<<<<< HEAD
+        "C:\\Users\\VINICIUSSOUZAJALOVIC.AzureAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+        "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\HENRIQUEBURITIALVESC.AzureAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 93596348a756f4bf755de6de5a44c4d378ce61fb
+>>>>>>> e960c048635bbf7d1c3ae5f670281315a7671164
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -52,7 +84,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net10.0": {
@@ -77,7 +109,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400-preview.0.26322.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
