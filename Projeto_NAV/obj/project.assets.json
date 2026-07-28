@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MatheusRibeiroHermsd\\.nuget\\packages\\": {},
+    "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MatheusRibeiroHermsd\\source\\repos\\Projeto_NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+      "projectUniqueName": "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\Desktop\\Nav\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
       "projectName": "Projeto_NAV",
-      "projectPath": "C:\\Users\\MatheusRibeiroHermsd\\source\\repos\\Projeto_NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
-      "packagesPath": "C:\\Users\\MatheusRibeiroHermsd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MatheusRibeiroHermsd\\source\\repos\\Projeto_NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+      "projectPath": "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\Desktop\\Nav\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+      "packagesPath": "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\Desktop\\Nav\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MatheusRibeiroHermsd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
