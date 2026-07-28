@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projeto_NAV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34b228a4013e2db5d3e3d65dbbd80ae1b6ca0c46")]
+<<<<<<< HEAD
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f57bf3a4b02a5a8e0afaafb82d90ccaa1317ba5f")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0622c1e0fad6bb5c2950331a21c8e2a72fc194e")]
+>>>>>>> e960c048635bbf7d1c3ae5f670281315a7671164
 [assembly: System.Reflection.AssemblyProductAttribute("Projeto_NAV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projeto_NAV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
