@@ -1,20 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "FIDHFbRO6SI=",
+  "dgSpecHash": "hjkp7sawUWo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\VINICIUSSOUZAJALOVIC.AzureAD\\Desktop\\projeto Nav 2\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
-=======
-<<<<<<< HEAD
-  "dgSpecHash": "mS834igXoLU=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\Desktop\\Nav\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
-=======
-  "dgSpecHash": "vcYexRWatj4=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\HENRIQUEBURITIALVESC.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
->>>>>>> 93596348a756f4bf755de6de5a44c4d378ce61fb
->>>>>>> e960c048635bbf7d1c3ae5f670281315a7671164
+  "projectFilePath": "D:\\repos\\_PF\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,190 @@
+﻿/* ==========================================================================
+   ESTILOS GERAIS & BANNER
+   ========================================================================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.banner {
+    background: linear-gradient(to bottom, #115599, #4488dd);
+    color: white;
+    text-align: center;
+    padding: 40px 20px 50px;
+    border-radius: 0 0 30px 30px;
+    position: relative;
+    z-index: 1;
+}
+
+    .banner h1 {
+        margin-top: 0;
+        font-size: 40px;
+    }
+
+    .banner p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+/* CAMPO DE BUSCA */
+.search-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+    .search-container input {
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        width: 300px;
+        outline: none;
+    }
+
+/* ==========================================================================
+   CARROSSEL (ESTRUTURA & BOTÕES)
+   ========================================================================== */
+.carousel-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 40px auto 50px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 50px; /* Espaço lateral para as setas não ficarem sobre os cards */
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.carousel-track {
+    display: flex !important;
+    flex-wrap: nowrap !important; /* IMPEDE A QUEBRA PARA A SEGUNDA LINHA */
+    transition: transform 0.6s ease-in-out;
+    width: max-content;
+}
+
+.carousel-container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-size: 24px;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.2s ease;
+}
+
+    .carousel-container button:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+.carousel-container .prev {
+    left: 10px;
+}
+
+.carousel-container .next {
+    right: 10px;
+}
+
+/* ==========================================================================
+   FLIP CARDS
+   ========================================================================== */
+.flip-card {
+    background-color: transparent;
+    width: 220px; /* Tamanho ideal para caber 4 cards lado a lado */
+    height: 350px;
+    perspective: 1000px;
+    margin: 0 10px;
+    flex-shrink: 0 !important; /* FORÇA os cards a manterem a largura sem encorpar ou dobrar */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* FACES DO CARD (FRENTE E VERSO) */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* FRENTE */
+.flip-card-front {
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .flip-card-front img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+        object-fit: cover;
+    }
+
+    .flip-card-front h2 {
+        font-size: 20px;
+        margin: 0 0 5px 0;
+    }
+
+    .flip-card-front p {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+    }
+
+/* VERSO */
+.flip-card-back {
+    background-color: #f1c40f;
+    color: black;
+    transform: rotateY(180deg);
+    padding: 20px;
+}
+
+    .flip-card-back p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .flip-card-back a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: bold;
+        transition: background-color 0.2s;
+    }
+
+        .flip-card-back a:hover {
+            background-color: #000;
+        }

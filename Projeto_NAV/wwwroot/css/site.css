@@ -29,3 +29,30 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+.carousel-container {
+    width: 100%; /* Usa a largura total disponível */
+    max-width: 100%; /* Garante que não limite a tela */
+    margin: 40px auto 50px;
+    position: relative;
+    overflow: hidden; /* Esconde os cards que estão fora da tela */
+    padding: 0 40px; /* Espaço para as setas não ficarem em cima do card */
+    box-sizing: border-box;
+}
+
+/* 2. O track (trilho) DEVE ser em linha única e sem quebra */
+.carousel-track {
+    display: flex !important;
+    flex-wrap: nowrap !important; /* FORÇA tudo a ficar numa linha só */
+    transition: transform 0.6s ease-in-out;
+    width: max-content;
+}
+
+/* 3. Reduzir levemente a largura do card para caber os 4 confortavelmente */
+.flip-card {
+    background-color: transparent;
+    width: 220px; /* Reduzido de 270px para 220px para caber os 4 perfeitamente */
+    height: 350px;
+    perspective: 1000px;
+    margin: 0 10px; /* Margem ajustada */
+    flex-shrink: 0 !important; /* IMPEDE que o card encolha ou dobre de linha */
+}

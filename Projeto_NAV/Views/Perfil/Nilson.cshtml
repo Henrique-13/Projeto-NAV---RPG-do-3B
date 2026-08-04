@@ -1,0 +1,79 @@
+﻿
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="~/css/perfilNilson.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="profile-container">
+
+        <!-- Cabeçalho do Perfil (Avatar Humano Maior + Robô Kaiju) -->
+        <header class="profile-header">
+
+            <!-- Avatar do Usuário (Maior) -->
+            <div class="avatar-wrapper">
+                <img src="https://avatars.githubusercontent.com/u/26882986?v=4" alt="Foto do Usuário" class="avatar-img">
+                <span class="status-badge" title="Online"></span>
+            </div>
+
+            <!-- Ícone de Energia / Link -->
+            <div class="sync-icon" title="Kaiju Bot Ativo">
+                ⚡
+            </div>
+
+            <!-- Robô Estilo Kaiju (Menor e Detalhado em SVG) -->
+            <div class="robot-wrapper" title="Assistente Kaiju Bot">
+                <svg class="robot-avatar" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Chifres / Placas Kaiju -->
+                    <path d="M25 32 L15 12 L35 25 Z" fill="#e74c3c" />
+                    <path d="M75 32 L85 12 L65 25 Z" fill="#e74c3c" />
+                    <path d="M50 20 L50 5 L58 18 Z" fill="#ff7675" />
+
+                    <!-- Mandíbula e Capacete Principal -->
+                    <polygon points="20,35 80,35 88,60 50,90 12,60" fill="#1e272e" stroke="#e74c3c" stroke-width="3" />
+                    <polygon points="28,40 72,40 78,58 50,80 22,58" fill="#2d3436" />
+
+                    <!-- Visor / Olhos Kaiju Brilhantes -->
+                    <polygon points="30,45 46,45 42,53 32,53" fill="#00d2d3" />
+                    <polygon points="54,45 70,45 68,53 58,53" fill="#00d2d3" />
+
+                    <!-- Dentes / Grelha Kaiju -->
+                    <path d="M38 65 L42 73 L46 65 L50 73 L54 65 L58 73 L62 65" stroke="#e74c3c" stroke-width="2.5" stroke-linecap="round" fill="none" />
+                </svg>
+                <span class="bot-tag">KAIJU-BOT</span>
+            </div>
+
+        </header>
+
+        <!-- Informações do Perfil -->
+        <main class="profile-body">
+            <h1 class="user-name">Nilson Alcides</h1>
+            <p class="user-role">Desenvolvedora Front-End & UI Designer</p>
+
+            <div class="description-card">
+                <h3>Sobre mim</h3>
+                <p>
+                    Apaixonada por criar experiências digitais incríveis, acessíveis e intuitivas.
+                    Especialista em React, HTML/CSS e design de sistemas. Nas horas vagas, estudo inteligência
+                    artificial e robótica visual.
+                </p>
+            </div>
+
+            <!-- Botões de Ação -->
+            <div class="action-buttons">
+                <a href="/perfil" class="btn btn-secondary">← Voltar ao Início</a>
+                <button class="btn btn-primary" onclick="alert('Iniciando sistema Kaiju!')">Ativar Kaiju Bot</button>
+            </div>
+        </main>
+
+    </div>
+
+</body>
+</html>

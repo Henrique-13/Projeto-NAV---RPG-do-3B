@@ -1,0 +1,186 @@
+﻿@* <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas-vindas | Perfis de Usuários</title>
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <!-- Fonte Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Seja bem-vindo à página de perfil de usuário</h1>
+            <p>Explore a lista abaixo e selecione um perfil para ver mais detalhes.</p>
+
+            <!-- Campo de busca dinâmico -->
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Buscar por nome ou cargo...">
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="cards-grid" id="cardsGrid">
+            <!-- Os cards de usuários serão inseridos dinamicamente pelo JavaScript -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> *@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuário - Bem-vindo</title>
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="banner">
+        <h1>Seja bem-vindo à página de perfil de usuário</h1>
+        <p>Explore a lista abaixo e selecione um perfil para ver mais detalhes.</p>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar por nome ou cargo...">
+        </div>
+    </div>
+
+    <div class="carousel-container">
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="carousel-track">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://avatars.githubusercontent.com/u/26882986?v=4 alt="Foto de perfil de Nilson Alcides">
+                        <h2>Nilson Alcides</h2>
+                        <p>Designer UX/UI</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Ana adora criar interfaces intuitivas e focar na experiência do usuário.</p>
+                        <a href="/perfil/nilson">Acessar Perfil</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e29026704e" alt="Foto de perfil de Bruno Costa">
+                        <h2>Bruno Costa</h2>
+                        <p>Desenvolvedor Front-end</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Bruno é especialista em HTML, CSS e JavaScript, com foco em performance e animações.</p>
+                        <a href="#">Acessar Perfil</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e29026704f" alt="Foto de perfil de Carla Souza">
+                        <h2>Carla Souza</h2>
+                        <p>Gerente de Produto</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Carla gerencia o ciclo de vida do produto, definindo a visão e garantindo o alinhamento com os objetivos da empresa.</p>
+                        <a href="#">Acessar Perfil</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e290267040" alt="Foto de perfil de Daniel Santos">
+                        <h2>Daniel Santos</h2>
+                        <p>Analista de Dados</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Daniel utiliza dados para extrair insights valiosos e apoiar a tomada de decisões na empresa.</p>
+                        <a href="#">Acessar Perfil</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="Foto de perfil de Ana Silva">
+                        <h2>Ana Silva</h2>
+                        <p>Designer UX/UI</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Ana adora criar interfaces intuitivas e focar na experiência do usuário.</p>
+                        <a href="#">Acessar Perfil</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e29026704e" alt="Foto de perfil de Bruno Costa">
+                        <h2>Bruno Costa</h2>
+                        <p>Desenvolvedor Front-end</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Bruno é especialista em HTML, CSS e JavaScript, com foco em performance e animações.</p>
+                        <a href="#">Acessar Perfil</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e29026704f" alt="Foto de perfil de Carla Souza">
+                        <h2>Carla Souza</h2>
+                        <p>Gerente de Produto</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Carla gerencia o ciclo de vida do produto, definindo a visão e garantindo o alinhamento com os objetivos da empresa.</p>
+                        <a href="#">Acessar Perfil</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e290267040" alt="Foto de perfil de Daniel Santos">
+                        <h2>Daniel Santos</h2>
+                        <p>Analista de Dados</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Daniel utiliza dados para extrair insights valiosos e apoiar a tomada de decisões na empresa.</p>
+                        <a href="#">Acessar Perfil</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e290267040" alt="Foto de perfil de Daniel Santos">
+                        <h2>Daniel Santos</h2>
+                        <p>Analista de Dados</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Daniel utiliza dados para extrair insights valiosos e apoiar a tomada de decisões na empresa.</p>
+                        <a href="#">Acessar Perfil</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="~/js/perfil_Inicial.js" asp-append-version="true"></script>
+</body>
+</html>
