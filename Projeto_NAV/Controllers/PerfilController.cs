@@ -12,6 +12,11 @@ namespace Projeto_NAV.Controllers
         {
             return View();
         }
+       public IActionResult Teste()
+        {
+            return View();
+        }
+
 
     }
 }
