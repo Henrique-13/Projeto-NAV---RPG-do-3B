@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="..\..\..\CombatentePerfil\mecha.png" Link="wwwroot\img\mecha.png" />
+    <Content Include="..\..\..\CombatentePerfil\mecha2.png" Link="wwwroot\img\mecha2.png" />
+    <Content Include="..\..\..\CombatentePerfil\personagem.png" Link="wwwroot\img\personagem.png" />
+    <Content Include="..\..\..\CombatentePerfil\personagem2.png" Link="wwwroot\img\personagem2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
 </Project>

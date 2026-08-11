@@ -13,5 +13,9 @@ namespace Projeto_NAV.Controllers
             return View();
         }
 
+        public IActionResult lucas()
+        {
+            return View();        
+        }
     }
 }
