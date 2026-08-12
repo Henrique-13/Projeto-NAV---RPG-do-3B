@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "IMGPLt7h7lg=",
   "success": true,
   "projectFilePath": "C:\\Users\\MarinaBarbieriDosSan\\Desktop\\Projeto NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+=======
+  "dgSpecHash": "2Vj5HK/iEC4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ThiagoCastroDoNascim.AzureAD\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+>>>>>>> Thiago
   "expectedPackageFiles": [],
   "logs": []
 }
