@@ -1,0 +1,185 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background: #000;
+    color: white;
+    min-height: 100vh;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+
+h1 {
+    font-size: 55px;
+    color: #d6b3ff;
+    margin-bottom: 30px;
+    text-shadow: 0 0 20px #8a2be2;
+}
+
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+
+.imagem {
+    width: 210px;
+}
+
+
+    .imagem img {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+        border: 4px solid #a855f7;
+        border-radius: 20px;
+        box-shadow: 0 0 25px #8a2be2;
+    }
+
+
+    .imagem p {
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+
+.card {
+    background: rgba(255,255,255,.08);
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #a855f7;
+    box-shadow: 0 0 20px #8a2be2;
+    text-align: left;
+}
+
+
+    .card h2 {
+        color: #d8b4fe;
+        margin-top: 20px;
+    }
+
+
+    .card p {
+        margin-top: 10px;
+        line-height: 1.6;
+    }
+
+
+/* SETAS */
+
+
+.seta {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #8a2be2;
+    box-shadow: 0 0 20px #8a2be2;
+    transition: .3s;
+}
+
+
+    .seta:hover {
+        transform: translateY(-50%) scale(1.15);
+        background: white;
+        color: #8a2be2;
+    }
+
+
+.esquerda {
+    left: 25px;
+}
+
+
+.direita {
+    right: 25px;
+}
+
+.ataques {
+    width: 80%;
+    margin: 50px auto;
+}
+
+    .ataques h2 {
+        text-align: center;
+        color: #8542d1;
+        margin-bottom: 20px;
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #1f1f1f;
+    box-shadow: 0 0 15px rgba(224, 211, 17, 0.3);
+}
+
+th {
+    background: linear-gradient(90deg,#7d08ca,#9552c2);
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+/* Linhas pretas */
+tbody tr:nth-child(odd) {
+    background: #000;
+}
+
+    tbody tr:nth-child(odd) td {
+        color: #fff;
+    }
+
+/* Linhas roxas */
+tbody tr:nth-child(even) {
+    background: #a447da;
+}
+
+    tbody tr:nth-child(even) td {
+        color: #000;
+    }
+
+/* Efeito ao passar o mouse */
+tbody tr:hover {
+    background: #780ba3;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    tbody tr:hover td {
+        color: #fff;
+    }
