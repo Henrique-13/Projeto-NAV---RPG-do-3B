@@ -7,17 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
+
     <Content Include="..\..\site personagem-20260811T183306Z-1-001\site personagem\img\mecha-costas.png" Link="wwwroot\img\mecha-costas.png" />
     <Content Include="..\..\site personagem-20260811T183306Z-1-001\site personagem\img\mecha-frente.png" Link="wwwroot\img\mecha-frente.png" />
     <Content Include="..\..\site personagem-20260811T183306Z-1-001\site personagem\img\personagem-costas.png" Link="wwwroot\img\personagem-costas.png" />
     <Content Include="..\..\site personagem-20260811T183306Z-1-001\site personagem\img\personagem-frente.png" Link="wwwroot\img\personagem-frente.png" />
-=======
+
     <Content Include="..\..\site tiao\mecha.png" Link="wwwroot\img\mecha.png" />
     <Content Include="..\..\site tiao\mecha2.png" Link="wwwroot\img\mecha2.png" />
     <Content Include="..\..\site tiao\personagem.png" Link="wwwroot\img\personagem.png" />
     <Content Include="..\..\site tiao\personagem2.png" Link="wwwroot\img\personagem2.png" />
->>>>>>> 2c9cd53d2b2ec9ff2ea842c848d72cb711f47429
+
   </ItemGroup>
 
   <ItemGroup>
