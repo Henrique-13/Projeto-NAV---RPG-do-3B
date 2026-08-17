@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\MatheusRibeiroHermsd\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {}
   },
   "projects": {
@@ -13,6 +14,45 @@
         "projectPath": "C:\\Users\\MatheusRibeiroHermsd\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
         "packagesPath": "C:\\Users\\MatheusRibeiroHermsd\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MatheusRibeiroHermsd\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+=======
+    "C:\\Users\\GABRIELPONTESGUEDESV\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\GABRIELPONTESGUEDESV\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GABRIELPONTESGUEDESV\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "projectName": "Projeto_NAV",
+        "projectPath": "C:\\Users\\GABRIELPONTESGUEDESV\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "packagesPath": "C:\\Users\\GABRIELPONTESGUEDESV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GABRIELPONTESGUEDESV\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+=======
+<<<<<<< HEAD
+    "C:\\Users\\GUSTAVOSILVEIRAFIGUE.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\GUSTAVOSILVEIRAFIGUE.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GUSTAVOSILVEIRAFIGUE.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "projectName": "Projeto_NAV",
+        "projectPath": "C:\\Users\\GUSTAVOSILVEIRAFIGUE.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "packagesPath": "C:\\Users\\GUSTAVOSILVEIRAFIGUE.AzureAD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GUSTAVOSILVEIRAFIGUE.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+=======
+<<<<<<< HEAD
+    "C:\\Users\\LucasFelipeRibeiroQu\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\LucasFelipeRibeiroQu\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LucasFelipeRibeiroQu\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "projectName": "Projeto_NAV",
+        "projectPath": "C:\\Users\\LucasFelipeRibeiroQu\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "packagesPath": "C:\\Users\\LucasFelipeRibeiroQu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LucasFelipeRibeiroQu\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+>>>>>>> b2a74fda1da4085d573a78a0cbb77d6cbfc94eb0
 =======
 <<<<<<< HEAD
     "C:\\Users\\PedroFranciscoBorges\\Desktop\\Projeto NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {}
@@ -40,16 +80,36 @@
         "outputPath": "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
 >>>>>>> 1ca8739d27efeb3b2d21b6f0b2d2d653d46a0bbf
 >>>>>>> ecdf8c99c675988ed8d3c169583d29ded77faabb
+<<<<<<< HEAD
+=======
+>>>>>>> 44c44a3f47311e4d046027c92e7b62d7f99bed47
+>>>>>>> 2c9cd53d2b2ec9ff2ea842c848d72cb711f47429
+>>>>>>> b2a74fda1da4085d573a78a0cbb77d6cbfc94eb0
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
 <<<<<<< HEAD
+<<<<<<< HEAD
           "C:\\Users\\MatheusRibeiroHermsd\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
           "C:\\Users\\PedroFranciscoBorges\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> ecdf8c99c675988ed8d3c169583d29ded77faabb
+=======
+          "C:\\Users\\GABRIELPONTESGUEDESV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+          "C:\\Users\\GUSTAVOSILVEIRAFIGUE.AzureAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+          "C:\\Users\\LucasFelipeRibeiroQu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\PedroFranciscoBorges\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> ecdf8c99c675988ed8d3c169583d29ded77faabb
+>>>>>>> 44c44a3f47311e4d046027c92e7b62d7f99bed47
+>>>>>>> 2c9cd53d2b2ec9ff2ea842c848d72cb711f47429
+>>>>>>> b2a74fda1da4085d573a78a0cbb77d6cbfc94eb0
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
