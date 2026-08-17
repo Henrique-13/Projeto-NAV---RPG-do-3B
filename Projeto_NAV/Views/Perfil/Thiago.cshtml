@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do Piloto</title>
+
+    <link rel="stylesheet" href="~/css/perfilThiago.css" asp-append-version="true" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Painel do Piloto</h1>
+        </header>
+
+        <section class="personagens">
+
+            <div class="card">
+                <h2>Piloto</h2>
+
+                <img src="/css/img/personagem.png">
+
+                <label>
+                    Nome
+                    <input data-save="personagem_nome">
+                </label>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Robô</h2>
+
+                <img src="~/css/img/robo.png">
+                <p>Robo</p>
+
+                <label>
+                    Defesa
+                    <input data-save="robo_energia">
+                </label>
+
+                <label>
+                    Agilidade
+                    <input data-save="robo_agilidade">
+                </label>
+
+                <label>
+                    vida
+                    <input data-save="robo_nome">
+                </label>
+
+                <label>
+                    Dano Extra
+                    <input data-save="robo_modelo">
+                </label>
+
+            </div>
+
+        </section>
+
+        <table class="tabela-ataques">
+
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Ataque</th>
+                    <th>Dano</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>A</td>
+                    <td><input data-save="ataque_A"></td>
+                    <td><input data-save="dano_A"></td>
+                    <td><input data-save="descricao_A"></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td><input data-save="ataque_2"></td>
+                    <td><input data-save="dano_2"></td>
+                    <td><input data-save="descricao_2"></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td><input data-save="ataque_3"></td>
+                    <td><input data-save="dano_3"></td>
+                    <td><input data-save="descricao_3"></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td><input data-save="ataque_4"></td>
+                    <td><input data-save="dano_4"></td>
+                    <td><input data-save="descricao_4"></td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td><input data-save="ataque_5"></td>
+                    <td><input data-save="dano_5"></td>
+                    <td><input data-save="descricao_5"></td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td><input data-save="ataque_6"></td>
+                    <td><input data-save="dano_6"></td>
+                    <td><input data-save="descricao_6"></td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td><input data-save="ataque_7"></td>
+                    <td><input data-save="dano_7"></td>
+                    <td><input data-save="descricao_7"></td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td><input data-save="ataque_8"></td>
+                    <td><input data-save="dano_8"></td>
+                    <td><input data-save="descricao_8"></td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td><input data-save="ataque_9"></td>
+                    <td><input data-save="dano_9"></td>
+                    <td><input data-save="descricao_9"></td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td><input data-save="ataque_10"></td>
+                    <td><input data-save="dano_10"></td>
+                    <td><input data-save="descricao_10"></td>
+                </tr>
+
+                <tr>
+                    <td>J</td>
+                    <td><input data-save="ataque_J"></td>
+                    <td><input data-save="dano_J"></td>
+                    <td><input data-save="descricao_J"></td>
+                </tr>
+
+                <tr>
+                    <td>Q</td>
+                    <td><input data-save="ataque_Q"></td>
+                    <td><input data-save="dano_Q"></td>
+                    <td><input data-save="descricao_Q"></td>
+                </tr>
+
+                <tr>
+                    <td>K</td>
+                    <td><input data-save="ataque_K"></td>
+                    <td><input data-save="dano_K"></td>
+                    <td><input data-save="descricao_K"></td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script>
+            const pagina = "thiago_";
+
+            document.querySelectorAll("[data-save]").forEach(campo => {
+
+                const chave = pagina + campo.dataset.save;
+
+                campo.value = localStorage.getItem(chave) || "";
+
+                campo.addEventListener("input", () => {
+                    localStorage.setItem(chave, campo.value);
+                });
+
+            });
+    </script>
+
+</body>
+
+</html>

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "uh664EOV/kY=",
   "success": true,
   "projectFilePath": "C:\\Users\\PedroFranciscoBorges\\Desktop\\Projeto NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+=======
+  "dgSpecHash": "vs0WIkwBB/U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+>>>>>>> 1ca8739d27efeb3b2d21b6f0b2d2d653d46a0bbf
   "expectedPackageFiles": [],
   "logs": []
 }
