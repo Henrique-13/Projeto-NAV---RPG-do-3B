@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="..\..\site personagem-20260811T183306Z-1-001\site personagem\img\mecha-costas.png" Link="wwwroot\img\mecha-costas.png" />
+    <Content Include="..\..\site personagem-20260811T183306Z-1-001\site personagem\img\mecha-frente.png" Link="wwwroot\img\mecha-frente.png" />
+    <Content Include="..\..\site personagem-20260811T183306Z-1-001\site personagem\img\personagem-costas.png" Link="wwwroot\img\personagem-costas.png" />
+    <Content Include="..\..\site personagem-20260811T183306Z-1-001\site personagem\img\personagem-frente.png" Link="wwwroot\img\personagem-frente.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
 </Project>

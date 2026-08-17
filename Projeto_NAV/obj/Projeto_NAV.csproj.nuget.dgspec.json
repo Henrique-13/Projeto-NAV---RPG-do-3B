@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\_PF\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {}
+    "C:\\Users\\GABRIELPONTESGUEDESV\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {}
   },
   "projects": {
-    "D:\\repos\\_PF\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {
+    "C:\\Users\\GABRIELPONTESGUEDESV\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\_PF\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "projectUniqueName": "C:\\Users\\GABRIELPONTESGUEDESV\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
         "projectName": "Projeto_NAV",
-        "projectPath": "D:\\repos\\_PF\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
-        "packagesPath": "C:\\Users\\Nilson\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\_PF\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+        "projectPath": "C:\\Users\\GABRIELPONTESGUEDESV\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "packagesPath": "C:\\Users\\GABRIELPONTESGUEDESV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GABRIELPONTESGUEDESV\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GABRIELPONTESGUEDESV\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
