@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projeto_NAV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22aebb969bc3a7bc699682e99bb7ff816aa38a3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44b00a3730c6d3b43b687cc45b11d3194b11ea07")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projeto_NAV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projeto_NAV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
