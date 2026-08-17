@@ -1,0 +1,232 @@
+﻿@{
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha RPG</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="~/css/perfil@bigrauu_.css" asp-append-version="true" />
+
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Ficha de Golpes</h1>
+
+        <!-- ==========================
+         PERSONAGEM E MECHA
+    =========================== -->
+
+        <div class="cards">
+
+            <!-- Personagem -->
+            <div class="card-container">
+
+                <h2>Personagem</h2>
+
+                <div class="card" id="cardPersonagem">
+
+                    <div class="face front">
+                        <img id="imgPersonagemFrente"
+                             src="~/img/personagem-frente.png"
+                             alt="Personagem Frente">
+                    </div>
+
+                    <div class="face back">
+                        <img id="imgPersonagemVerso"
+                             src="~/img/personagem-costas.png"
+                             alt="Personagem Verso">
+                    </div>
+
+                </div>
+
+                <button onclick="virar('cardPersonagem')">
+                    Ver Verso
+                </button>
+
+            </div>
+
+            <!-- Mecha + atributos -->
+            <div class="mecha-area">
+
+                <div class="card-container">
+
+                    <h2>Mecha</h2>
+
+                    <div class="card" id="cardMecha">
+
+                        <div class="face front">
+                            <img id="imgMechaFrente"
+                                 src="~/img/mecha-frente.png"
+                                 alt="Mecha Frente">
+                        </div>
+
+                        <div class="face back">
+                            <img id="imgMechaVerso"
+                                 src="~/img/mecha-costas.png"
+                                 alt="Mecha Verso">
+                        </div>
+
+                    </div>
+
+                    <button onclick="virar('cardMecha')">
+                        Ver Verso
+                    </button>
+
+                </div>
+
+                <!-- Atributos -->
+                <div class="status-mecha">
+
+                    <h3>Atributos</h3>
+
+                    <div class="status-item">
+                        <label for="vida">❤️ Vida</label>
+                        <input type="number"
+                               id="vida"
+                               min="0"
+                               value="20">
+                    </div>
+
+                    <div class="status-item">
+                        <label for="agilidade">⚡ Agilidade</label>
+                        <input type="number"
+                               id="agilidade"
+                               min="0"
+                               value="1">
+                    </div>
+
+                    <div class="status-item">
+                        <label for="danoExtra">🗡️ Dano Extra</label>
+                        <input type="number"
+                               id="danoExtra"
+                               min="0"
+                               value="0">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ==========================
+         DADOS
+    =========================== -->
+
+        <div class="personagem">
+
+            <div class="campo">
+                <label for="personagem">Personagem</label>
+                <input type="text"
+                       id="personagem"
+                       placeholder="Nome do personagem">
+            </div>
+
+            <div class="campo">
+                <label for="mecha">Mecha</label>
+                <input type="text"
+                       id="mecha"
+                       placeholder="Nome do mecha">
+            </div>
+
+        </div>
+
+        <!-- ==========================
+         TABELA
+    =========================== -->
+
+        <table id="tabela">
+
+            <thead>
+
+                <tr>
+
+                    <th>Carta</th>
+                    <th>Nome</th>
+                    <th>Força</th>
+                    <th>Descrição</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <!-- Gerado pelo JavaScript -->
+            </tbody>
+
+        </table>
+
+        <!-- ==========================
+         BOTÕES
+    =========================== -->
+
+        <div class="botoes">
+
+            <button onclick="confirmarSalvar()">
+                💾 Salvar
+            </button>
+
+            <button onclick="confirmarLimpar()">
+                🗑️ Limpar
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================
+     MODAL
+========================== -->
+
+    <div id="modal" class="modal">
+
+        <div class="modal-box">
+
+            <h2 id="modalTitulo"></h2>
+
+            <p id="modalMensagem"></p>
+
+            <div class="modal-buttons">
+
+                <button class="btn-cancelar"
+                        onclick="fecharModal()">
+
+                    Cancelar
+
+                </button>
+
+                <button id="btnConfirmar"
+                        class="btn-confirmar">
+
+                    Confirmar
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================
+     TOAST
+========================== -->
+
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+
+    <script src="~/js/perfil@bigrauu_.js" asp-append-version="true"></script>
+
+
+</body>
+</html>

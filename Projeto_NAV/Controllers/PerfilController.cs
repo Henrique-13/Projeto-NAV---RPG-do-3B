@@ -8,30 +8,52 @@ namespace Projeto_NAV.Controllers
         {
             return View();
         }
-<<<<<<< HEAD
-        public IActionResult pepe()
-=======
-        public IActionResult Marina()
->>>>>>> 1ca8739d27efeb3b2d21b6f0b2d2d653d46a0bbf
+
+        public IActionResult Teste()
         {
             return View();
         }
-        public IActionResult Teste()
-<<<<<<< HEAD
-=======
+        public IActionResult Nilson()
+        {
+            return View();
+        }
+
+        public IActionResult pepe()
+        {
+            return View();
+        }
+
+        public IActionResult Marina()
+
+        {
+            return View();
+        }
+      
+        public IActionResult Sarah()
+        {
+            return View();
+        }
+
+
+        public IActionResult bigrauu_()
         {
             return View();
         }
 
         public IActionResult Thiago()
->>>>>>> 1ca8739d27efeb3b2d21b6f0b2d2d653d46a0bbf
         {
             return View();
         }
+
+        public IActionResult matheus() 
+        {
+            return View();
+        }
+
         public IActionResult gustavosilveira()
         {
             return View();
-        }
-        
+        }        
+
     }
 }
