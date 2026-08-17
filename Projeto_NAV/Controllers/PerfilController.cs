@@ -8,7 +8,15 @@ namespace Projeto_NAV.Controllers
         {
             return View();
         }
+        public IActionResult Teste()
+        {
+            return View();
+        }
         public IActionResult Nilson()
+        {
+            return View();
+        }
+        public IActionResult Sarah()
         {
             return View();
         }

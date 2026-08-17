@@ -1,0 +1,90 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/perfilSarah.css" asp-append-version="true" />
+    <title>Ficha do Personagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Ficha do Personagem</h1>
+
+        <div class="top-section">
+            <!-- Piloto -->
+            <div class="card">
+                <h3>Piloto</h3>
+                <div class="image-container">
+                    <img id="img-piloto" src="https://unsplash.com" alt="Piloto">
+                </div>
+                <div class="btn-group">
+                    <button id="btn-piloto-frente" class="btn active" onclick="mudarImagem('piloto', 'frente', 'https://unsplash.com')">Frente</button>
+                    <button id="btn-piloto-tras" class="btn" onclick="mudarImagem('piloto', 'tras', 'https://unsplash.com')">Trás</button>
+                </div>
+            </div>
+
+            <!-- Robô -->
+            <div class="card">
+                <h3>Robô</h3>
+                <div class="image-container">
+                    <img id="img-robo" src="https://unsplash.com" alt="Robô">
+                </div>
+                <div class="btn-group">
+                    <button id="btn-robo-frente" class="btn active" onclick="mudarImagem('robo', 'frente', 'https://unsplash.com')">Frente</button>
+                    <button id="btn-robo-tras" class="btn" onclick="mudarImagem('robo', 'tras', 'https://unsplash.com')">Trás</button>
+                </div>
+            </div>
+
+            <!-- Status -->
+            <div class="card">
+                <h3>Status</h3>
+                <div class="status-grid">
+                    <div class="status-item">
+                        <label>Vida</label>
+                        <input type="number" value="30">
+                    </div>
+                    <div class="status-item">
+                        <label>Agilidade</label>
+                        <input type="number" value="1">
+                    </div>
+                    <div class="status-item">
+                        <label>Defesa</label>
+                        <input type="number" value="0">
+                    </div>
+                    <div class="status-item">
+                        <label>Dano Extra</label>
+                        <input type="number" value="0">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Lista de Ataque</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="text-align: center;">#</th>
+                        <th>Nome</th>
+                        <th>Dano</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-ataques">
+                    <!-- Gerado pelo script.js -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="~/js/perfilSarah.js" asp-append-version="true"></script>
+</body>
+</html>
