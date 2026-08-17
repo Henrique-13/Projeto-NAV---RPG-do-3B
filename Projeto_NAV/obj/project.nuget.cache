@@ -1,8 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "2e08K3jZOYI=",
   "success": true,
   "projectFilePath": "C:\\Users\\MatheusRibeiroHermsd\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "uh664EOV/kY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PedroFranciscoBorges\\Desktop\\Projeto NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+=======
+  "dgSpecHash": "vs0WIkwBB/U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+>>>>>>> 1ca8739d27efeb3b2d21b6f0b2d2d653d46a0bbf
+>>>>>>> ecdf8c99c675988ed8d3c169583d29ded77faabb
   "expectedPackageFiles": [],
   "logs": []
 }
