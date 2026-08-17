@@ -1,0 +1,154 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ficha RPG</title>
+
+    <link rel="stylesheet" href="~/css/perfilgustavosilveira.css" asp-append-version="true" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>FICHA RPG</h1>
+
+        <div class="menu">
+
+            <button onclick="mostrar('personagem')">PERSONAGEM</button>
+
+        </div>
+
+        <div id="personagem" class="aba ativa">
+
+            <div class="conteudo-personagem">
+
+                <div class="imagens">
+
+                    <div class="card">
+                        <h2>
+                            PERSONAGEM
+                            NIVEL 2
+                        </h2>
+                        <img id="imgPersonagem" src="personagem.png" alt="Personagem">
+
+                        <button onclick="trocarPersonagem()">
+                            Frente / Costas
+                        </button>
+
+                    </div>
+
+                    <div class="card">
+                        <h2>MECHA</h2>
+
+                        <img id="imgMecha" src="mecha.png" alt="Mecha">
+
+                        <button onclick="trocarMecha()">
+                            Frente / Costas
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="status">
+
+                    <h2>STATUS</h2>
+
+                    <table>
+                        <tr>
+                            <th>Atributo</th>
+                            <th>Valor</th>
+                        </tr>
+
+                        <tr>
+                            <td>Vida</td>
+                            <td><input type="number"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Agilidade</td>
+                            <td><input type="number"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Dano Extra</td>
+                            <td><input type="number"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Defesa</td>
+                            <td><input type="number"></td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="tabela-habilidades">
+
+            <table id="tabelaHabilidades">
+
+                <thead>
+                    <tr>
+                        <th>Carta</th>
+                        <th>Nome</th>
+                        <th>Força</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr><td>A</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>2</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>3</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>4</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>5</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>6</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>7</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>8</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>9</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>10</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>Q</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>J</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                    <tr><td>K</td><td><input></td><td><input type="number"></td><td><input type="text"></td></tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

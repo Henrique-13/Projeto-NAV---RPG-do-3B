@@ -5,12 +5,58 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+<<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\SarahSilvaSantana\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\MatheusRibeiroHermsd\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+=======
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\PedroFranciscoBorges\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+>>>>>>> ecdf8c99c675988ed8d3c169583d29ded77faabb
+=======
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\GABRIELPONTESGUEDESV\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+=======
+<<<<<<< HEAD
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\GUSTAVOSILVEIRAFIGUE.AzureAD\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+=======
+<<<<<<< HEAD
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\LucasFelipeRibeiroQu\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+=======
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\PedroFranciscoBorges\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+>>>>>>> ecdf8c99c675988ed8d3c169583d29ded77faabb
+>>>>>>> 44c44a3f47311e4d046027c92e7b62d7f99bed47
+>>>>>>> 2c9cd53d2b2ec9ff2ea842c848d72cb711f47429
+>>>>>>> b2a74fda1da4085d573a78a0cbb77d6cbfc94eb0
+>>>>>>> ea05d7a3f800c5ca93566fb23cb7a832c8d9a4e9
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">7.0.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
     <SourceRoot Include="C:\Users\SarahSilvaSantana\.nuget\packages\" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <SourceRoot Include="C:\Users\MatheusRibeiroHermsd\.nuget\packages\" />
+=======
+    <SourceRoot Include="C:\Users\PedroFranciscoBorges\.nuget\packages\" />
+>>>>>>> ecdf8c99c675988ed8d3c169583d29ded77faabb
+=======
+    <SourceRoot Include="C:\Users\GABRIELPONTESGUEDESV\.nuget\packages\" />
+=======
+<<<<<<< HEAD
+    <SourceRoot Include="C:\Users\GUSTAVOSILVEIRAFIGUE.AzureAD\.nuget\packages\" />
+=======
+<<<<<<< HEAD
+    <SourceRoot Include="C:\Users\LucasFelipeRibeiroQu\.nuget\packages\" />
+=======
+    <SourceRoot Include="C:\Users\PedroFranciscoBorges\.nuget\packages\" />
+>>>>>>> ecdf8c99c675988ed8d3c169583d29ded77faabb
+>>>>>>> 44c44a3f47311e4d046027c92e7b62d7f99bed47
+>>>>>>> 2c9cd53d2b2ec9ff2ea842c848d72cb711f47429
+>>>>>>> b2a74fda1da4085d573a78a0cbb77d6cbfc94eb0
+>>>>>>> ea05d7a3f800c5ca93566fb23cb7a832c8d9a4e9
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
 </Project>

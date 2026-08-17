@@ -1,0 +1,526 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+font-family: Arial, sans-serif;
+
+color: white;
+
+background:
+
+radial-gradient(
+    circle at top,
+            #26364c,
+            #0a1019 70%
+        );
+
+}
+
+
+/* CABEÇALHO */
+
+header {
+
+    text-align: center;
+
+padding: 30px;
+
+background-color: #111a27;
+
+    border-bottom:
+
+        2px solid #455b78;
+
+}
+
+
+header h1
+{
+
+    margin: 0;
+
+    letter-spacing: 4px;
+
+}
+
+
+header p
+{
+
+    color: #9eafc4;
+
+}
+
+
+/* CONTEÚDO */
+
+main {
+
+    max-width: 1300px;
+
+margin: auto;
+
+padding: 25px;
+
+}
+
+
+/* PAINEL */
+
+.painel-principal {
+
+display: grid;
+
+    grid-template-columns:
+
+        1fr
+        1.2fr
+        1fr;
+
+gap: 20px;
+
+}
+
+
+/* CARTÕES */
+
+.card {    padding: 20px;
+
+border-radius: 18px;
+
+background:linear-gradient(
+    145deg,
+            #202d3e,
+            #111925
+        );
+
+border:
+
+1px solid #4b607d;
+
+
+box-shadow:
+
+        0 15px 35px
+        rgba(0, 0, 0, 0.6);
+
+}
+
+
+.card h2
+{
+
+    text-align: center;
+
+    letter-spacing: 3px;
+
+}
+
+
+/* IMAGENS */
+
+.personagem,
+.mecha {
+
+    text-align: center;
+
+}
+
+
+.personagem img,
+.mecha img {
+
+    width: 100%;
+
+max-height: 500px;
+
+object-fit: contain;
+
+image-rendering: pixelated;
+
+}
+
+
+/* STATUS SOMENTE PARA VISUALIZAÇÃO */
+
+.status {
+
+    padding: 25px;
+
+}
+
+
+.texto-status {
+
+color: #aab8c9;
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* CAIXA DE CADA STATUS */
+
+.status-caixa {
+
+display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+padding: 17px;
+
+    margin-top: 15px;
+
+    background-color: #101a27;
+
+    border:
+
+    1px solid #405977;
+
+
+border-radius: 12px;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+}
+
+
+/* NÚMERO DO STATUS */
+
+.status-caixa strong {
+
+    min-width: 65px;
+
+padding: 9px;
+
+text-align: center;
+
+color: #7fcaff;
+
+    font-size: 23px;
+
+background-color: #07101b;
+
+    border:
+
+1px solid #4b6687;
+
+
+border-radius: 8px;
+
+}
+
+
+/* BOTÃO DO MECHA */
+
+.botao-mecha {
+
+width: 100%;
+
+    margin-top: 25px;
+
+padding: 17px;
+
+border:
+
+    2px solid #7fcaff;
+
+
+border-radius: 10px;
+
+background:
+
+    linear-gradient(
+        90deg,
+            #164c7e,
+            #267ed6
+        );
+
+color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+cursor: pointer;
+
+}
+
+
+.botao-mecha:hover {
+
+    background:
+
+        linear-gradient(
+            90deg,
+            #267ed6,
+            #46a1ff
+        );
+
+transform:
+
+scale(1.03);
+
+}
+
+
+/* MENSAGEM */
+
+.mensagem-mecha {
+
+    text-align: center;
+
+color: #aab8c9;
+
+    font-weight: bold;
+
+}
+
+
+/* CONTROLE */
+
+.controle {
+
+    display: flex;
+
+align-items: center;
+
+gap: 12px;
+
+}
+
+
+.controle span
+{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 55px;
+
+    height: 42px;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    color: #8fd4ff;
+
+    background-color: #172536;
+
+    border-radius: 8px;
+
+}
+
+
+/* BOTÕES + E - */
+
+.controle button
+{
+
+    width: 40px;
+
+    height: 40px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #286fb2;
+
+    color: white;
+
+    font-size: 25px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+
+.controle button:hover {
+
+    background-color: #4ba8ff;
+
+}
+
+
+/* BOTÃO RESETAR */
+
+.resetar {
+
+    width: 100%;
+
+margin-top: 25px;
+
+padding: 13px;
+
+border: none;
+
+border-radius: 10px;
+
+background-color: #394656;
+
+ color: white;
+
+font-weight: bold;
+
+cursor: pointer;
+
+}
+
+
+.resetar:hover {
+
+    background-color: #596a7d;
+
+}
+
+/* ATAQUES */
+
+.ataques {
+
+    margin-top: 35px;
+
+}
+
+
+.ataques h2
+{
+
+    text-align: center;
+
+    letter-spacing: 3px;
+
+}
+
+
+.lista-ataques {
+
+display: grid;
+
+    grid-template-columns:
+
+        repeat(
+            auto - fit,
+            minmax(120px, 1fr)
+        );
+
+gap: 12px;
+
+}
+
+
+.ataque {
+
+    display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+padding: 18px;
+
+color: white;
+
+background-color: #172231;
+
+    border:
+
+1px solid #4c617c;
+
+
+border-radius: 12px;
+
+cursor: pointer;
+
+}
+
+
+.ataque:hover {
+
+transform:
+
+    translateY(-5px);
+
+    border-color:
+
+        #6fc4ff;
+
+}
+
+
+.ataque strong
+{
+
+    font-size: 30px;
+
+    color: #7fcaff;
+
+}
+
+
+.ataque span
+{
+
+    margin-top: 5px;
+
+    font-size: 17px;
+
+}
+
+
+.ataque small
+{
+
+    margin-top: 7px;
+
+    color: #aebdce;
+
+}
+
+
+/* RODAPÉ */
+
+footer {
+
+ text-align: center;
+
+padding: 30px;
+
+color: #73859b;
+
+}
+
+
+/* CELULAR */
+
+@media
+(max-width: 900px) {
+
+    .painel-principal {
+
+        grid-template-columns:
+
+            1fr;
+
+    }
+
+}
