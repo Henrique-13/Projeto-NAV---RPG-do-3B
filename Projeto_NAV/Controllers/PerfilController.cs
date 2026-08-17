@@ -12,6 +12,9 @@ namespace Projeto_NAV.Controllers
         {
             return View();
         }
-
+        public IActionResult matheus() 
+        {
+            return View();
+        }
     }
 }
