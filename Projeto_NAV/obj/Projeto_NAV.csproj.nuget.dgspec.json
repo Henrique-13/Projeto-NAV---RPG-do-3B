@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\LucasFelipeRibeiroQu\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {}
   },
   "projects": {
@@ -12,12 +13,43 @@
         "projectPath": "C:\\Users\\LucasFelipeRibeiroQu\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
         "packagesPath": "C:\\Users\\LucasFelipeRibeiroQu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\LucasFelipeRibeiroQu\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+=======
+<<<<<<< HEAD
+    "C:\\Users\\PedroFranciscoBorges\\Desktop\\Projeto NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PedroFranciscoBorges\\Desktop\\Projeto NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PedroFranciscoBorges\\Desktop\\Projeto NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "projectName": "Projeto_NAV",
+        "projectPath": "C:\\Users\\PedroFranciscoBorges\\Desktop\\Projeto NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "packagesPath": "C:\\Users\\PedroFranciscoBorges\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PedroFranciscoBorges\\Desktop\\Projeto NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+=======
+    "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "projectName": "Projeto_NAV",
+        "projectPath": "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+        "packagesPath": "C:\\Users\\Nilson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\",
+>>>>>>> 1ca8739d27efeb3b2d21b6f0b2d2d653d46a0bbf
+>>>>>>> ecdf8c99c675988ed8d3c169583d29ded77faabb
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\LucasFelipeRibeiroQu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\PedroFranciscoBorges\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> ecdf8c99c675988ed8d3c169583d29ded77faabb
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
