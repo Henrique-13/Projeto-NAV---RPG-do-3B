@@ -12,6 +12,10 @@ namespace Projeto_NAV.Controllers
         {
             return View();
         }
-
+        public IActionResult gustavosilveira()
+        {
+            return View();
+        }
+        
     }
 }

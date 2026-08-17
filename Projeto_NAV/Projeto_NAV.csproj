@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="..\..\site tiao\mecha.png" Link="wwwroot\img\mecha.png" />
+    <Content Include="..\..\site tiao\mecha2.png" Link="wwwroot\img\mecha2.png" />
+    <Content Include="..\..\site tiao\personagem.png" Link="wwwroot\img\personagem.png" />
+    <Content Include="..\..\site tiao\personagem2.png" Link="wwwroot\img\personagem2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
 </Project>
