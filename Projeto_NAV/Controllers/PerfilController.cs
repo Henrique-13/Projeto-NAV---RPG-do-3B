@@ -9,43 +9,33 @@ namespace Projeto_NAV.Controllers
             return View();
         }
 
-<<<<<<< HEAD
+
         public IActionResult pepe()
-=======
+        {
+            return View();
+        }
+
         public IActionResult Teste()
         {
             return View();
         }
         public IActionResult Nilson()
->>>>>>> a2b63e4115018fd58548368946daafae66be4c3c
         {
             return View();
         }
-
-<<<<<<< HEAD
-=======
-        public IActionResult pepe()
-        {
-            return View();
-        }
-
->>>>>>> a2b63e4115018fd58548368946daafae66be4c3c
         public IActionResult Marina()
 
         {
             return View();
         }
-<<<<<<< HEAD
-        public IActionResult Teste()
 
-=======
+    
       
         public IActionResult Sarah()
->>>>>>> a2b63e4115018fd58548368946daafae66be4c3c
+
         {
             return View();
         }
-
 
         public IActionResult bigrauu_()
         {
@@ -53,34 +43,24 @@ namespace Projeto_NAV.Controllers
         }
 
         public IActionResult Thiago()
-<<<<<<< HEAD
+
 
         {
             return View();
         }
-=======
-        {
-            return View();
-        }
 
->>>>>>> a2b63e4115018fd58548368946daafae66be4c3c
+     
+
         public IActionResult matheus() 
         {
             return View();
         }
-<<<<<<< HEAD
+
         public IActionResult gustavosilveira()
         {
             return View();
         }
         
-=======
-
-        public IActionResult gustavosilveira()
-        {
-            return View();
-        }        
->>>>>>> a2b63e4115018fd58548368946daafae66be4c3c
 
     }
 }

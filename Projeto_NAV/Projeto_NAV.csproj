@@ -5,14 +5,14 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
+<!-- 
   <ItemGroup>
 
     <Content Include="..\..\site tiao\mecha.png" Link="wwwroot\img\mecha.png" />
     <Content Include="..\..\site tiao\personagem.png" Link="wwwroot\img\personagem.png" />
 
   </ItemGroup>
-
+-->
   <ItemGroup>
     <Folder Include="wwwroot\img\" />
   </ItemGroup>
