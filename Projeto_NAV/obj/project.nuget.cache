@@ -1,8 +1,52 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "lAX1KlCsurI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "2e08K3jZOYI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MatheusRibeiroHermsd\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "sU+Lnc0sUXY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VINICIUSSOUZAJALOVIC.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+=======
+  "dgSpecHash": "vs0WIkwBB/U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+>>>>>>> 6e3683b956f6d6b7b2b1d1bfd936da26e5ebc757
+>>>>>>> a2b63e4115018fd58548368946daafae66be4c3c
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+<<<<<<< HEAD
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\MatheusRibeiroHermsd\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\MatheusRibeiroHermsd\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\MatheusRibeiroHermsd\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+=======
+<<<<<<< HEAD
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\VINICIUSSOUZAJALOVIC.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\VINICIUSSOUZAJALOVIC.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\VINICIUSSOUZAJALOVIC.AzureAD\\Desktop\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+=======
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Nilson\\Desktop\\NAV\\Projeto-NAV---RPG-do-3B\\Projeto_NAV\\Projeto_NAV.csproj",
+>>>>>>> 6e3683b956f6d6b7b2b1d1bfd936da26e5ebc757
+>>>>>>> a2b63e4115018fd58548368946daafae66be4c3c
+      "targetGraphs": []
+    }
+  ]
+>>>>>>> 61ef468479c79103f6edea84fbd3866a9fad4163
 }
