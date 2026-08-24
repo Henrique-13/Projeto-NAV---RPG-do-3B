@@ -28,7 +28,6 @@ namespace Projeto_NAV.Controllers
         {
             return View();
         }
-
     
       
         public IActionResult Sarah()
@@ -44,12 +43,9 @@ namespace Projeto_NAV.Controllers
 
         public IActionResult Thiago()
 
-
         {
             return View();
-        }
-
-     
+        }    
 
         public IActionResult matheus() 
         {
@@ -59,8 +55,7 @@ namespace Projeto_NAV.Controllers
         public IActionResult gustavosilveira()
         {
             return View();
-        }
-        
+        }        
 
     }
 }
