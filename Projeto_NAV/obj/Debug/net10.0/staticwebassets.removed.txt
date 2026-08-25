@@ -1,0 +1,16 @@
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\css\img\personagem.png
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\css\img\robo.png
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\css\perfil@bigrauu_.css
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\css\perfilgustavosilveira.css
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\css\PerfilMarina.css
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\css\PerfilMatheus.css
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\css\PerfilPepe.css
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\css\perfilSarah.css
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\css\perfilThiago.css
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\IMG\mecha-marina.jpg
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\IMG\Mecha.png
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\IMG\personagem.png
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\IMG\skin-marina.jpg
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\js\perfil@bigrauu_.js
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\js\perfilSarah.js
+C:\Users\GABRIELPONTESGUEDESV\Desktop\Nav\Projeto-NAV---RPG-do-3B\Projeto_NAV\wwwroot\PerfilPepe.cs
